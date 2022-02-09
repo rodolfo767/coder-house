@@ -1,0 +1,33 @@
+header{
+    background-color: rgb(182,253,180);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 6;
+
+.navbar{
+  margin-right: 20px;}
+
+  ul li{
+    display: inline-block;
+    margin-left: 20px;}
+
+    a{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: bold;
+      color: rgb(240, 65, 94);}
+
+.logo{
+  width: 130%;
+  height: 100px;
+  margin-left: 10px;}
+
+
+
+
+
+}
