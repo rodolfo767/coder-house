@@ -1,1 +1,29 @@
-_
+.contenedor{
+text-align: center;
+margin: 50px;
+padding: 30px;
+border: solid 1px #99A799;
+border-radius: 4px;
+}
+
+h2{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+p{
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+
+.carousel{
+width: 92%;
+}
+.imagenBody{
+margin-top: 10px;
+width:100%;
+}
+&:hover{
+  filter: grayscale(100%);
+  z-index: 5;
+}
