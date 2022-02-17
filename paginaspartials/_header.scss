@@ -1,12 +1,12 @@
 header{
-    background-color: rgb(182,253,180);
+    background-color: map-get($colores,bg);
     width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 6;
+    z-index: 6;}
 
 .navbar{
   margin-right: 20px;}

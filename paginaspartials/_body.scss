@@ -15,15 +15,29 @@ p{
   margin-bottom: 15px;
 }
 
-
+#parrafo{
+  margin: 10;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
 .carousel{
 width: 92%;
 }
+
 .imagenBody{
-margin-top: 10px;
-width:100%;
-}
-&:hover{
-  filter: grayscale(100%);
-  z-index: 5;
-}
+
+  margin-top: 10px;
+  
+  width:100%;
+  
+    &:hover{
+  
+    filter: grayscale(100%);
+  
+    z-index: 5;
+  
+    }
+  
+    
+  }
