@@ -1,0 +1,4 @@
+Para el sitio se agrego, description en los HTML
+Se agregaron palabras claves:
+index, ropa, bebes, conjuntos, niñas, niños, atuendos, vestir, vestido, embalaje
+Se mantuvo el titulo de los html, porque siendo muy largo no se lee bien, al menos que se coloque el mouse arriba

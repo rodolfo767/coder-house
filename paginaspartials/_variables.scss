@@ -1,0 +1,18 @@
+$colorPrincipal: black;
+
+/*mapas*/
+
+$colores:(
+    primario: #000000,
+    secundario: white,
+    bg:#b6fdb4,
+    hover-primario:darken (black,20),
+    hover-secundario:lighter (blue,20),
+
+);
+
+/*extends*/
+%flexRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;}
