@@ -16,3 +16,20 @@ $colores:(
     display: flex;
     flex-direction: row;
     justify-content: center;}
+
+/*mixins*/
+
+@mixin mediaQueryMobile {
+    @media only screen and (min-width: 599x){
+        @content
+    }
+
+
+};
+@mixin mediaQueryTablet {
+    @media only screen and (min-width: 599x){
+        @content
+    }
+
+
+};

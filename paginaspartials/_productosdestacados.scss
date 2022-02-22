@@ -9,7 +9,7 @@
             }
         
 
-
+@include mediaQueryTablet{
 .gridPadre {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -42,3 +42,39 @@
 .imagenSeis {
     grid-area: imagenSeis;
 }
+}
+
+
+@include mediaQueryMobile{
+    .gridPadre {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+        "imagenUno imagenDos imagenTres"
+        "imagenCuatro imagenCinco imagenSeis";
+    }
+    .imagenUno {
+        grid-area: imagenUno;
+    }
+    
+    .imagenDos {
+        grid-area: imagenDos;
+    }
+    
+    .imagenTres {
+        grid-area: imagenTres;
+    }
+    
+    .imagenCuatro {
+        grid-area: imagenCuatro;
+    }
+    
+    .imagenCinco {
+        grid-area: imagenCinco;
+    }
+    
+    .imagenSeis {
+        grid-area: imagenSeis;
+    }
+    }
