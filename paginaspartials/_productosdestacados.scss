@@ -7,74 +7,31 @@
             z-index: 5;}
 
             }
-        
-
-@include mediaQueryTablet{
-.gridPadre {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas:
-    "imagenUno imagenDos imagenTres"
-    "imagenCuatro imagenCinco imagenSeis";
+.gridPadre{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-template-areas: "imagenUno imagenDos imagenTres" "imagenCuatro imagenCinco imagenSeis";
+}
+.imagenUno{
+  grid-area: imagenUno;
 }
 
-.imagenUno {
-    grid-area: imagenUno;
+.imagenDos{
+  grid-area: imagenDos;
+}
+.imagenTres{
+  grid-area: imagenTres;
 }
 
-.imagenDos {
-    grid-area: imagenDos;
+.imagenCuatro{
+  grid-area: imagenCuatro;
 }
 
-.imagenTres {
-    grid-area: imagenTres;
+.imagenCinco{
+  grid-area: imagenCinco;
 }
 
-.imagenCuatro {
-    grid-area: imagenCuatro;
+.imagenSeis{
+  grid-area: imagenSeis;
 }
-
-.imagenCinco {
-    grid-area: imagenCinco;
-}
-
-.imagenSeis {
-    grid-area: imagenSeis;
-}
-}
-
-
-@include mediaQueryMobile{
-    .gridPadre {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: auto auto;
-        grid-template-areas:
-        "imagenUno imagenDos imagenTres"
-        "imagenCuatro imagenCinco imagenSeis";
-    }
-    .imagenUno {
-        grid-area: imagenUno;
-    }
-    
-    .imagenDos {
-        grid-area: imagenDos;
-    }
-    
-    .imagenTres {
-        grid-area: imagenTres;
-    }
-    
-    .imagenCuatro {
-        grid-area: imagenCuatro;
-    }
-    
-    .imagenCinco {
-        grid-area: imagenCinco;
-    }
-    
-    .imagenSeis {
-        grid-area: imagenSeis;
-    }
-    }
